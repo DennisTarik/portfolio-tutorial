@@ -1,11 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   display: grid;
+  background: #8fb8ed;
+  font-size: 16px;
+  margin: 0rem;
 }
 header {
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 8fr 1fr 1fr 1fr 1fr;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  justify-items: center;
+  background-color: salmon;
 }
-.topmain {
-  padding: 10em 5em;
-  padding-left: 20em;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20rem;
+}
+h1 {
+  margin: 2rem;
+}
+h2 {
+  margin: 1rem;
+}
+p {
+  margin: 0.5rem;
+}
+
+.picture {
+  background-color: red;
 }
