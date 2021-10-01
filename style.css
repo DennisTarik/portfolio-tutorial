@@ -19,7 +19,17 @@ header {
   justify-items: center;
   background-color: salmon;
 }
-.container {
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20rem;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20rem;
+}
+.container3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 20rem;
@@ -35,5 +45,5 @@ p {
 }
 
 .picture {
-  background-color: red;
+  background-color: rgb(143, 82, 82);
 }
